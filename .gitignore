@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+instance/
+*.migrations/
+
+# If you are using PostgreSQL:
+*.pgdata
+
+# Media files (user uploads)
+media/
+
+# Static files
+staticfiles/
+static/
+
+# Local environment settings
+.env
+*.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Test and temporary files
+*.test.db
+*.tmp
+.temp
+
+# Node.js (if applicable)
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log
+
+# Gunicorn and Docker files (if applicable)
+*.pid
+logs/
+docker-compose.override.yml
